@@ -17,6 +17,9 @@ async function main(){
     console.log(usuarios.linhas)
     //final do teste
 
+    console.log(usuarios.contaColuna)
+    console.log(usuarios.contaLinha)
+
 }
 
 main()
