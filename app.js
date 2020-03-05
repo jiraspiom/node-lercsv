@@ -1,6 +1,12 @@
 
-const Ler = require("./Reader")
+const Ler = require("./Reader");
 
-var leitor = new Ler()
+var leitor = new Ler();
 
-leitor.Reader("./arquivo.cvs")
+
+async function main(){
+    var dados = await leitor.Reader("./arquivo.cvs");
+    console.log(dados);
+}
+
+main()
